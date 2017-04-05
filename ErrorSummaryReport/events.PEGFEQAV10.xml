@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="yes" ?>
+<!DOCTYPE ROOT[
+ <!ATTLIST ROOT DATE_CREATED CDATA #REQUIRED>
+ <!ATTLIST ROOT CREATED_BY CDATA #REQUIRED>
+ <!ELEMENT date (#PCDATA)>
+ <!ELEMENT time (#PCDATA)>
+ <!ELEMENT s-sitename (#PCDATA)>
+ <!ELEMENT ComputerName (#PCDATA)>
+ <!ELEMENT c-ip (#PCDATA)>
+ <!ELEMENT sc-status (#PCDATA)>
+ <!ELEMENT cs-cookie (#PCDATA)>
+ <!ELEMENT Message (#PCDATA)>
+ <!ELEMENT ROW (date, time, s-sitename, ComputerName, c-ip, sc-status, cs-cookie, Message)>
+ <!ELEMENT ROOT (ROW*)>
+]>
+<ROOT DATE_CREATED="2013-12-26 17:46:26" CREATED_BY="Microsoft Log Parser V2.2">
+ <ROW>
+  <date>
+  2013-12-26
+  </date>
+  <time>
+  08:37:51
+  </time>
+  <s-sitename>
+  Error event
+  </s-sitename>
+  <ComputerName>
+  PegFEQAV10.wrk.pad.pearsoncmg.com
+  </ComputerName>
+  <c-ip>
+  10.3.199.17
+  </c-ip>
+  <sc-status>
+  4156
+  </sc-status>
+  <cs-cookie>
+  MSDTC Client
+  </cs-cookie>
+  <Message>
+  The description for Event ID 4156 in Source &quot;MSDTC Client&quot; cannot be found. The local computer may not have the necessary registry information or message DLL files to display messages from a remote computer
+  </Message>
+ </ROW>
+</ROOT>
